@@ -61,7 +61,7 @@ class StandardPagination(PageNumberPagination):
                     ("count", self.page.paginator.count),
                     ("next", self.get_next_link()),
                     ("previous", self.get_previous_link()),
-                    ("all", self.get_all_result_ids()),
+                    #("all", self.get_all_result_ids()),
                     ("results", data),
                 ],
             ),
